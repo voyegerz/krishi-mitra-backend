@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 fastapi = {extras = ["standard"], version = "*"}
+sqlmodel = {extras = ["asyncpg"], version = "*"}
+psycopg2-binary = "*"
 
 [dev-packages]
 
